@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" media="screen" href="https://cdn.ewf.to/ewf-0042.css">
+  <script src="https://cdn.ewf.to/ewf-0042.js"></script>
+</head>
+
+<body>
+  <div class="EWF__app"></div>
+
+  <h1><%= token %></h1>
+
+  <script>window.EWF.load("pk_live_REPLACE_ME", { jwt: "<%= token %>" });</script>
+</body>
+
+</html>
